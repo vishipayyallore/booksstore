@@ -12,6 +12,8 @@ export class BookslistComponent implements OnInit {
 
   // @ts-ignore
   booksList: IBookDto[];
+  imageWidth = 40;
+  imageMargin = 1;
 
   constructor(private booksService: BooksService) {
   }

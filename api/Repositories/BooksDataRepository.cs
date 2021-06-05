@@ -33,7 +33,7 @@ namespace Demo.BooksStore.Interfaces
             booksList.Add(
                 new Book
                 {
-                  Id = (int)dataReader.GetDecimal(0),
+                  Id = dataReader.GetInt32(0),
 
                   PictureUrl = dataReader.GetString(1),
 
