@@ -14,8 +14,8 @@ namespace Demo.BooksStore.Config
       SqlServerConnectionString1 = Environment
         .GetEnvironmentVariable("SQLAZURECONNSTR_SqlServerConnection", EnvironmentVariableTarget.Process);
 
-      Console.WriteLine($"{SqlServerConnectionString}");
-      Console.WriteLine($"{SqlServerConnectionString1}");
+      Console.WriteLine($"SqlServerConnectionString = {SqlServerConnectionString}");
+      Console.WriteLine($"SqlServerConnectionString1 = {SqlServerConnectionString1}");
     }
 
 
