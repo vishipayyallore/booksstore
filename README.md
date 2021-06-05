@@ -14,7 +14,7 @@ API: http://localhost:7071/api/GetAllBooks
 UI: http://localhost:4280/
 ```
 
-[![Azure Static Web Apps CI/CD](https://github.com/vishipayyallore/booksstore/actions/workflows/azure-static-web-apps-wonderful-tree-0e5b78410.yml/badge.svg)](https://github.com/vishipayyallore/booksstore/actions/workflows/azure-static-web-apps-wonderful-tree-0e5b78410.yml)
+[![Azure Static Web Apps CI/CD](https://github.com/vishipayyallore/booksstore/actions/workflows/azure-static-web-apps-wonderful-tree-0e5b78410.yml/badge.svg)](https://github.com/vishipayyallore/booksstore/actions/workflows/azure-static-web-apps-calm-hill-003b3ad10.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
