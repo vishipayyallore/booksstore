@@ -1,5 +1,19 @@
 # Booksstore
 
+```
+npm install -g @azure/static-web-apps-cli
+
+npm install -g azure-functions-core-tools@3
+
+npm run build --prod
+
+swa start dist/booksstore --api api
+
+API: http://localhost:7071/api/GetAllBooks
+
+UI: http://localhost:4280/
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
 ## Development server
