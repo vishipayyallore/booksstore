@@ -8,6 +8,7 @@
 /bazel-out
 /Old 
 
+
 # dependencies
 /node_modules
 
@@ -46,3 +47,15 @@ testem.log
 Thumbs.db
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/booksstore/v16/.suo
+src/assets/images/books/Book1.jpg
+src/assets/images/books/Book10.jpg
+src/assets/images/books/Book2.jpg
+src/assets/images/books/Book3.jpg
+src/assets/images/books/Book4.jpg
+src/assets/images/books/Book5.jpg
+src/assets/images/books/Book6.jpg
+src/assets/images/books/Book7.jpg
+src/assets/images/books/Book8.jpg
+src/assets/images/books/Book9.jpg
