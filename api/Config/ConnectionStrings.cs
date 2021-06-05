@@ -9,11 +9,18 @@ namespace Demo.BooksStore.Config
     public ConnectionStrings()
     {
       SqlServerConnectionString = Environment
-          .GetEnvironmentVariable("SQLAZURECONNSTR_SqlServerConnection", EnvironmentVariableTarget.Process);
+        .GetEnvironmentVariable("SqlServerConnection", EnvironmentVariableTarget.Process);
+
+      SqlServerConnectionString1 = Environment
+        .GetEnvironmentVariable("SQLAZURECONNSTR_SqlServerConnection", EnvironmentVariableTarget.Process);
+
+      Console.WriteLine($"{SqlServerConnectionString}");
+      Console.WriteLine($"{SqlServerConnectionString1}");
     }
 
 
     public string SqlServerConnectionString { get; }
+    public string SqlServerConnectionString1 { get; }
   }
 
 }
